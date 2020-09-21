@@ -1,0 +1,27 @@
+
+.home{
+    padding-top: 10vh;
+    
+}
+.home .title{
+    color: #333;
+    filter: drop-shadow(3px 3px 10px grey);
+}
+.home .card{
+    margin: 10vh;
+    padding: 10vh;
+    height: 60vh;
+    background-color: rgb(191, 247, 247);
+    border-radius: 10px;
+    filter: drop-shadow(3px 3px 10px grey);
+}
+.home .card .list{
+    margin-bottom: 4vh;
+    background-color: #fff;
+}
+.card .list button{
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    text-align: start;
+}
