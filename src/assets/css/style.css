@@ -21,6 +21,7 @@
 .home .card .list{
     margin-bottom: 4vh;
     background-color: #fff;
+    padding-bottom: 1vh;
 }
 
 .card .list .title-item{
@@ -29,6 +30,7 @@
     width: 100%;
     padding: 10px;
     text-align: start;
+    color: #444;
 }
 
 .card .list .title-item .action button{
@@ -38,4 +40,31 @@
 
 .card .list .add-item{
     margin-left: auto !important;
+}
+
+.card .list .list-item{
+    height: auto;
+    padding-bottom: .8vh;
+}
+
+.card .list .list-item h5{
+    margin: 17px;
+}
+.line-title{
+    width: 100%;
+    background-color: rgb(172, 171, 171);
+}
+.line-item{
+    width: 100%;
+    background-color: rgb(216, 216, 214);
+}
+
+.form-item{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.none{
+    display: none;
 }
