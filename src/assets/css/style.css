@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .home{
     padding-top: 10vh;
     
@@ -14,14 +16,26 @@
     background-color: rgb(191, 247, 247);
     border-radius: 10px;
     filter: drop-shadow(3px 3px 10px grey);
+    overflow-y: auto;
 }
 .home .card .list{
     margin-bottom: 4vh;
     background-color: #fff;
 }
-.card .list button{
+
+.card .list .title-item{
     background-color: #fff;
     height: 60px;
     width: 100%;
+    padding: 10px;
     text-align: start;
+}
+
+.card .list .title-item .action button{
+    float: right !important;
+    margin-right: 35px;
+}
+
+.card .list .add-item{
+    margin-left: auto !important;
 }

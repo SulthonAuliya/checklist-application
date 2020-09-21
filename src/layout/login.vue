@@ -34,9 +34,7 @@ export default {
     },
     methods: {
         login(){
-            this.$http.post('/auth', { user: this.username, password: this.password })
-    .then(request => this.loginSuccessful(request))
-    .catch(() => this.loginFailed())
+            
         }
     }
 }

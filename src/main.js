@@ -37,12 +37,5 @@ const router = new Router({
 new Vue({
   router,
   el: '#app',
-  data() {
-    return {
-      myStyle: {
-        backgroundColor: "#000"
-      }
-    };
-  },
   render: h => h(App),
 });
